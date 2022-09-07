@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Comapany-PrimaThink</title>
+    <link rel="icon" type="img/jpg" href="img/logo.jpg" />
+    
+    
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <div class="header"> 
+    <div class="container1">
+        <div class="navbar ">
+            <div class="logo">
+            <a href="main.html"><img src="img/logo.png" alt="PrimaThink" width="220px" height="70px">
+            </a>
+          </div>
+          <nav>
+              <ul id="menuItems">
+                  <li><a style="color: #162f49;" href="main.html">Home</a></li>
+                  <li><a style="color: #162f49;" href="about.html">About Us</a></li>
+                  
+                  <li><a style="color: #162f49;" href="Training.html">Training</a></li>
+                  <li><a style="color: #162f49;" href="blog.html">Article</a></li>
+                  <li><a style="color: #162f49;" href="internship.html">Internship</a></li>
+                  <li><a style="color: #162f49;" href="casestudies.html">Case Studies</a></li>
+                  
+                  
+                  <li><a style="color: #162f49;" href="account.html">Contact Us</a></li>
+                  
+                  
+                  
+              </ul>
+          </nav>
+          
+          <img src="images/menu.png"class="menu-icon" onclick="menutoggle()">  
+    </div>
+    
+    </div>
+    </div>
+        
+        <section id="services-container">
+            <h1 class="h-primary center">Articles Written in PrimaThink</h1>
+            <div id="services">
+                <div class="box">
+                    <img src="img/article1.png" alt="">
+                    <h2 class="h-secondary center">Modern JavaScript Explained For Dinosaurs</h2>
+                    <p class="center">This is probably the best explanation I’ve ever seen about modern frontend development workflow, and if you are new to JavaScript or web development, you must read this article.
+                      You will learn so much about JavaScript by just reading this one article. If you have looked at JavaScript 10 years ago and want to get up-to-speed quickly, definitely read this article
+                      And, if you want to learn more about JavaScript The Complete JavaScript Course by Jonas Schemdtmann on Udemy is the best course for web developers.</p>
+                </div>
+                <div class="box">
+                    <img src="img/article7.png" alt="">
+                    <h2 class="h-secondary center">RESTful API Designing guidelines — The best practices</h2>
+                    <p class="center">REST APIs have transformed how the web should function. It’s also paved a road for mobile devices showing content from the web. Facebook, Google, Github, Netflix, and few other tech giants have given a chance to the developers to consume their data through APIs and became a platform for them.
+
+                      This article teaches you some hard-earned best practices for designing your own REST APIs. Though, if you are new to REST, I first suggest you go through REST Fundamentals By Howard Dierking on Pluralsight before attempting these best practices.</p>
+                </div>
+                <div class="box">
+                    <img src="img/article3.png" alt="">
+                    <h2 class="h-secondary center">Modern CSS Explained For Dinosaur</h2>
+                    <p class="center">This is another masterpiece from Peter Jang, author of the very first article in this list, but this time, he has covered CSS, another pillar of web development.
+                      To be honest, like JavaScript, CSS has also changed a lot, and if you haven’t used CSS for a long time, this article will bring you up to speed.
+                      
+                      And, if you want to learn more, in a much-structured way, this Advanced CSS and Sass: Flexbox, Grid, and more by Jonas Schedtmann is another great resource to follow-up. The best thing is that both of these articles are free articles on Medium.</p>
+                </div>
+                <div class="box">
+                  <img src="img/article4.jpg" alt="">
+                  <h2 class="h-secondary center">Learn these JavaScript fundamentals and become a better developer</h2>
+                  <p class="center">The power of JavaScript lies in its simplicity, and Knowing the JavaScript fundamentals makes us better at understanding and using the language. This article will teach you some JavaScript fundamentals which many web developers overlook.
+
+                    If you want to learn more, you can also read the author’s Discover Functional JavaScript book, which was named one of the best new Functional Programming books by BookAuthority!</p>
+              </div>
+              <div class="box">
+                <img src="img/article5.png" alt="">
+                <h2 class="h-secondary center">What exactly is Node.js</h2>
+                <p class="center">Node.js is a JavaScript runtime environment. Sounds great, but what does that mean? How does that work? All of these questions have been answered in this article.
+                  Since Node.js is a must for any serious web developer in today’s world,, particularly for full-stack developers, a good understanding of Node.js goes a long way.
+                  
+                  This is the best article to learn and understand Node.js, but if you want to learn more, The Complete Node.js Developer Course by Andrew J. Mead on Udemy is another awesome resource.</p>
+            </div>
+            <div class="box">
+              <img src="img/article6.png" alt="">
+              <h2 class="h-secondary center">Top 10 JavaScript Frameworks to Learn in 2021</h2>
+              <p class="center">This is another fantastic article with a list of fantastic JavaScript frameworks for both frontend and backend development like Angular, Reactjs, Nodejs, etc. It will teach you the key technologies and frameworks needed to become a modern front-end and back-end developer.
+
+                This article also contains resources like The Complete 2021 Web Development Bootcamp course by Angela Yu where you can learn those Javascript frameworks. I strongly recommend reading them, especially if you want to become a full-stack Web Developer.</p>
+          </div>
+            </div>
+          
+        </section>
+
+<!----------js for toggle menu------->
+<script>
+var MenuItems=document.getElementById("MenuItems");
+MenuItems.style.maxHeight="0px";
+function menutoggle(){
+    if(MenuItems .style.maxHeight="0px")
+    {
+        MenuItems.style.maxHeight="200px";
+    }
+    else{
+        MenuItems.style.maxHeight="0px";
+    }
+}
+</script>
+    
+</body>
+</html>
